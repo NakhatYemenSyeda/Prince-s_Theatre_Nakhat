@@ -25,3 +25,10 @@
   margin: 0 0 24px;
   text-align: center;
 }
+
+.headerContainer {
+  height: 25%;
+  width: 90%;
+  vertical-align: top;
+  horiz-align: center;
+}

@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 
 export default function Header() {
   return (
-    <div>
+    <div className={styles.headerContainer}>
       <div className={styles.heading}>Prince's Theatre</div>
       <div className={styles.subHeading}>Classic Movies At Home</div>
       <div className={styles.subHeadingContent}>

@@ -1,0 +1,8 @@
+.contentSection {
+    height: 75%;
+    width: 90;
+    horiz-align: center;
+    vertical-align: bottom;
+    border: #ffcc66;
+    background-color: #7c795d;
+}
