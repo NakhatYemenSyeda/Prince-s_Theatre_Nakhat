@@ -5,7 +5,7 @@ import NothingToDisplay from "../NothingToDisplay";
 
 export default function ContentSection() {
 
-  const url1 = 'https://challenge.lexicondigital.com.au/api/v2/cinemaworld/movie'
+  const url1 = 'https://challenge.lexicondigital.com.au/api/v2/cinemaworld/movies'
   const url2 = 'https://challenge.lexicondigital.com.au/api/v2/filmworld/movies'
   const config = {
   headers: {
