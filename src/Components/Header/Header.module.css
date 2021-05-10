@@ -1,0 +1,27 @@
+.heading {
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.subHeading {
+  font-size: 32px;
+  font-weight: 300;
+  color: #ffcc66;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.subHeadingContent {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+  text-align: center;
+}
