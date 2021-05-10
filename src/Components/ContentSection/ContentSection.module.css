@@ -1,8 +1,9 @@
 .contentSection {
+    position: relative;
+    min-height: 75%;
     height: 75%;
-    width: 90;
-    horiz-align: center;
-    vertical-align: bottom;
-    border: #ffcc66;
-    background-color: #7c795d;
+    background-color: #fae68e;
+    alignment: center;
+    padding: 10px;
+    margin: 20px;
 }

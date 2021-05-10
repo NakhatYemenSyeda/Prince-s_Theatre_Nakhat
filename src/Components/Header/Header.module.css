@@ -17,7 +17,7 @@
 }
 
 .subHeadingContent {
-  color: #7c795d;
+  color: #ffcc66;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 28px;
   font-weight: 400;
@@ -29,6 +29,7 @@
 .headerContainer {
   height: 25%;
   width: 90%;
+  margin: 20px;
   vertical-align: top;
   horiz-align: center;
 }
