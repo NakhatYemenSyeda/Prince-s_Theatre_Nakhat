@@ -46,9 +46,15 @@ export default function ContentSection() {
               }])
           });
 
+          console.log("Between", moviesList);
+
           movies2.forEach(movie => {
               var alreadyExists = moviesList.find((element) => {
                   return element.Title === movie.Title;
+              });
+
+              var correspondingMovie = movies1.find((x) => {
+                  return x.Title === movie.Title;
               })
 
               if (alreadyExists) {
@@ -57,7 +63,7 @@ export default function ContentSection() {
                   moviesList.push([{
                       "title": movie.Title,
                       "image": movie.Poster,
-                      "cinemaworld": -1,
+                      "cinemaworld": correspondingMovie.Price ? correspondingMovie.Price : -1,
                       "filmworld": movie.Price
                   }])
               }
