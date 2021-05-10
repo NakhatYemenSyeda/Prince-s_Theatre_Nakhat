@@ -7,7 +7,7 @@ export default function NothingToDisplay() {
             <div>
                 Something went wrong, please try again!
             </div>
-            <button>
+            <button  onClick={() => window.location.reload(false)}>
                 Click to reload
             </button>
         </div>

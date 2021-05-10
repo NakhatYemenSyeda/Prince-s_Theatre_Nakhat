@@ -2,7 +2,6 @@ import React, { useEffect, useState} from "react";
 import styles from "./ContentSection.module.css";
 import axios from "axios";
 import NothingToDisplay from "../NothingToDisplay";
-import MoviesTile from "../MoviesTile";
 import MoviesGrid from "../MoviesGrid";
 
 export default function ContentSection() {
@@ -69,27 +68,7 @@ export default function ContentSection() {
 
   useEffect(()=>{
       setIsDataLoaded(true);
-      // if (movies && movies.length > 0){
-      //     for (var m in movies){
-      //         var movie = movies[m][0];
-      //         MoviesTile(movie.title, movie.image, movie.cinemaworld, movie.filmworld);
-      //     }
-      // }
   },[movies]);
-
-//   const MoviesTile = (title, image, cinemaworld, filmworld) => {
-//     return(
-//         <div>
-//             {/*<img src={image} alt="Poster image" width="100%" height="50%" />*/}
-//                 <div>
-//                     {title}
-//                 </div>
-//                 <div>Cinemaworld: {cinemaworld}</div>
-//             <div>Filmworld: {filmworld}</div>
-//         </div>
-//     );
-//
-// }
 
   return (
       (movies && movies.length > 0 && isDataLoaded)?
