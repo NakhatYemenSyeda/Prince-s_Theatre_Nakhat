@@ -1,0 +1,22 @@
+.title {
+    font-family: "Trocchi", serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.theatres {
+    font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 32px;
+    width: 100%;
+}
+
+.card {
+    padding: 1rem;
+    height: 30rem;
+}
+

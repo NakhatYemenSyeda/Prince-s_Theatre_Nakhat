@@ -1,17 +1,20 @@
 import React, { useEffect, useState} from "react";
 import MoviesTile from "../MoviesTile";
+import styles from './MoviesGrid.module.css'
 
 export default function MoviesGrid(movies){
-    console.log("Hellloooooo", movies.movies);
     return (
-        <div>
+        <div className={styles.cards}>
             { movies.movies.map(m=> {
               var movie = m[0];
-              console.log("Hereeeeee", movie.title);
-              return (
+              if (movie.title){
+                   return (
                   <MoviesTile title={ movie.title } image={ movie.image } cinemaworld={ movie.cinemaworld } filmworld={ movie.filmworld } />
               );
-              // <MoviesTile title={ movie.title } image={ movie.image } cinemaworld={ movie.cinemaworld } filmworld={ movie.filmworld }/>;
+              }
+              else {
+                  return(<span></span>);
+              }
          }
          )};
         </div>
