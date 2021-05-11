@@ -16,7 +16,7 @@ export default function MoviesGrid(movies){
                   return(<span></span>);
               }
          }
-         )};
+         )}
         </div>
     );
 }

@@ -34,7 +34,7 @@ const MoviesTile = ({title, image, cinemaworld, filmworld}) => {
                 </table>
 
             </div>
-        );
+        )
     }
 }
 
