@@ -38,15 +38,13 @@ export default function ContentSection() {
               var correspondingMovie = movies2.find((element) => {
                   return element.Title === movie.Title;
               });
-              moviesList.push([{
+              moviesList.push({
                   "Title": movie.Title,
                   "image": movie.Poster,
                   "cinemaworld": movie.Price,
                   "filmworld": correspondingMovie ? correspondingMovie.Price : -1
-              }])
+              });
           });
-
-          console.log("Between", moviesList);
 
           movies2.forEach(movie => {
               var alreadyExists = moviesList.find((element) => {
